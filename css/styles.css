@@ -3,3 +3,17 @@
     height:auto;
     display: inline-block;
 }
+p{
+    text-align: justify;
+}
+.bg_section{
+    background-color: darkgray;
+    padding: 20px;
+}
+.h_tag{
+    color: rgb(10, 215, 215);
+}
+.hr{
+    border: solid rgb(10, 215, 215);
+    width: 30%;
+}
