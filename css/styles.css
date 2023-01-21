@@ -17,3 +17,10 @@ p{
     border: solid rgb(10, 215, 215);
     width: 30%;
 }
+.icon_head{
+    display: inline;
+}
+.icon_head h1{
+    display: inline;
+    padding-left: 20px;
+}
