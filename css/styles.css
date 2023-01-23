@@ -14,7 +14,7 @@ p{
     color: rgb(10, 215, 215);
 }
 .hr{
-    border: solid rgb(10, 215, 215);
+    border:1px solid rgb(10, 215, 215);
     width: 30%;
 }
 .icon_head{
@@ -24,18 +24,32 @@ p{
     display: inline;
     padding-left: 20px;
 }
+
+.icon_head i{
+    font-size: 4rem;
+    color: aquamarine;
+}
 .Address_cls{
     background-color: aqua;
-    padding: 20px;
-    display: inline-block;
+    padding: 8px 7rem;
+    margin-bottom: 7px;
+    color: white;
+    
 }
 .Email_cls{
     background-color: aqua;
-    padding: 20px;
-    display: inline-block;
+    padding: 8px 7rem;
+    margin-bottom: 7px;
+    color: white;
 }
 .Phone_cls{
     background-color: aqua;
-    padding: 20px;
-    display: inline-block;
+    padding: 8px 7rem;
+    margin-bottom: 7px;
+    color: white;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
 }
