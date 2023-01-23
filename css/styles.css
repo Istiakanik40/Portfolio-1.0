@@ -24,3 +24,18 @@ p{
     display: inline;
     padding-left: 20px;
 }
+.Address_cls{
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+}
+.Email_cls{
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+}
+.Phone_cls{
+    background-color: aqua;
+    padding: 20px;
+    display: inline-block;
+}
