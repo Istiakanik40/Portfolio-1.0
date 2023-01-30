@@ -3,12 +3,17 @@
     height:auto;
     display: inline-block;
 }
+
+#picture{
+  width: 300px;
+  height: 400px;
+}
 p{
     text-align: justify;
 }
 .bg_section{
-    background-color: darkgray;
-    padding: 20px;
+    background-color: rgb(244, 232, 232);
+    padding: 30px;
 }
 .h_tag{
     color: rgb(10, 215, 215);
@@ -22,12 +27,12 @@ p{
 }
 .icon_head h1{
     display: inline;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .icon_head i{
     font-size: 4rem;
-    color: aquamarine;
+    color: rgb(236, 37, 73);
 }
 .Address_cls{
     background-color: aqua;
@@ -48,13 +53,18 @@ p{
     margin-bottom: 7px;
     color: white;
 }
-.sticky{
-    position: fixed;
-    top: 0;
-    left: 0;
+
+
+.slick-container{
+  /* Add styles for the carousel items */
+  padding: 20px;
+  background-color:transparent;
+  text-align: center;
 }
 
-
+.slick-slide{
+  padding: 20px;
+}
 
 
 
@@ -94,7 +104,8 @@ p{
   }
   .item-image {
     width: 100%;
-    padding-bottom: 50%;
+    height: 200px;
+    padding-bottom: 20px;
     background-size: cover;
   }
   .item-title {
